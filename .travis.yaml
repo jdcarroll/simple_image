@@ -3,4 +3,4 @@ services:
   - docker
 
 before_install:
-  - echo "this is a test of travis ci today"
+  - docker build -t jdcarroll22/test-kube -f ./client/Dockerfile.dev
