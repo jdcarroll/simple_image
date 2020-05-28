@@ -3,4 +3,4 @@ services:
   - docker
 
 before_install:
-  - echo "this is a test of travis ci"
+  - echo "this is a test of travis ci today"
