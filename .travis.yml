@@ -16,7 +16,7 @@ after_success:
   # Docker Login
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # push images up to docker hub
-  - docker push jdcarroll22/test-kube-client
-  - docker push jdcarroll22/test-kube-nginx
-  - docker push jdcarroll22/test-kube-server
-  - docker push jdcarroll22/test-kube-worker
+  - docker push jdcarroll22/test-kube:jdcarroll22/test-kube-client
+  - docker push jdcarroll22/test-kube:jdcarroll22/test-kube-nginx
+  - docker push jdcarroll22/test-kube:jdcarroll22/test-kube-nginx
+  - docker push jdcarroll22/test-kube:jdcarroll22/test-kube-nginx
